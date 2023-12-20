@@ -1,0 +1,11 @@
+_BASE_: ../Base-SBS.yml
+
+MODEL:
+  BACKBONE:
+    NAME: build_resnest_backbone
+
+DATASETS:
+  NAMES: ("VISO",)
+  TESTS: ("VISO",)
+
+OUTPUT_DIR: logs/viso/sbs_S50
